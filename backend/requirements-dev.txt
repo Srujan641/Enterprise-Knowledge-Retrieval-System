@@ -3,3 +3,5 @@ pytest
 httpx
 python-docx
 reportlab
+pyarrow
+pytest-cov

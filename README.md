@@ -134,11 +134,57 @@ cd backend
 
 The suite covers access control, token forgery, uploads, ingestion, tables, retrieval, the agent flow and the spending limit. It needs no API key.
 
+## Evaluation results
+
+The system was evaluated on 250 questions with known answers, across 2,140 documents (2,541 indexed pieces), using `gpt-5-nano`. Results come from one automated run with no tuning on these questions.
+
+**Overall accuracy: 75.6% (189/250)**, 95% CI 69.9% to 80.5%. On the 200 questions that have an answer, accuracy was 87.5%.
+
+| Question type | Source | Questions | Correct | Accuracy |
+|---|---|---|---|---|
+| PDF tables | Generated for this benchmark | 50 | 50 | 100% |
+| Single fact | SQuAD v2 | 100 | 86 | 86% |
+| Multi-hop | HotpotQA | 50 | 39 | 78% |
+| No answer exists | SQuAD v2 | 50 | 14 | 28% |
+
+| Metric | Result |
+|---|---|
+| Search hit rate at 5 / at 1 | 97.0% / 84.5% |
+| Mean reciprocal rank | 0.900 |
+| Answers citing a correct source | 95.0% |
+| Citation precision | 90.2% |
+| False refusal when an answer exists | 3.0% |
+| Restricted content retrieved by a general user | 0 in 50 attempts |
+| Search latency, median | 11 ms |
+| Answer time, median / 95th percentile, 4 concurrent | 3.5 s / 7.2 s |
+| Cost per question | $0.00017 |
+| Backend tests / coverage | 41 passing / 91% |
+
+**Reading these results**
+
+- Answers are scored by matching the expected answer, so a correct answer worded differently counts as wrong. A manual review of the 25 wrong answers to answerable questions found 10 of this kind, which would make the total about 199/250. The figures above do not include that adjustment.
+- The main weakness is answering when the documents don't contain the answer. The SQuAD v2 unanswerable questions are designed to be misleading, and the system correctly refused only 28% of them.
+- The tables are clean, generated 10-row tables, so that score does not represent complex real-world tables.
+- The access-control check covers search results for restricted documents.
+
+Per-question output is in [`backend/eval/results/results.csv`](backend/eval/results/results.csv), and the summary is in [`report.md`](backend/eval/results/report.md).
+
+To reproduce (costs about $0.05 in API usage and counts toward `LLM_BUDGET_USD`):
+
+```bash
+cd backend
+.venv/bin/python eval/build_dataset.py
+DATA_DIR=/tmp/rag-eval/data FAISS_INDEX_PATH=/tmp/rag-eval/index .venv/bin/python eval/run_eval.py
+```
+
+Benchmarks: [SQuAD v2](https://rajpurkar.github.io/SQuAD-explorer/) and [HotpotQA](https://hotpotqa.github.io/).
+
 ## Known limitations
 
 - Scanned PDFs are rejected because OCR is not included.
 - Section detection relies on ALL-CAPS or numbered headings.
 - Tables are preserved for PDFs only. DOCX tables are read as plain text.
+- The system answers too often when the documents don't contain the answer (see the evaluation results).
 - FAISS runs in a single backend process, so scaling out would need a vector database server.
 
 ## License

@@ -1,0 +1,68 @@
+{
+  "model": "openai/gpt-5-nano",
+  "questions": 250,
+  "correct": 189,
+  "overall_accuracy": 0.756,
+  "overall_ci95_low": 0.699147815859017,
+  "overall_ci95_high": 0.8051036543491759,
+  "categories": {
+    "fact": {
+      "questions": 100,
+      "correct": 86,
+      "accuracy": 0.86,
+      "ci95_low": 0.7786263961619276,
+      "ci95_high": 0.9147373424553509
+    },
+    "table": {
+      "questions": 50,
+      "correct": 50,
+      "accuracy": 1.0,
+      "ci95_low": 0.9286499658256813,
+      "ci95_high": 1.0
+    },
+    "multi_hop": {
+      "questions": 50,
+      "correct": 39,
+      "accuracy": 0.78,
+      "ci95_low": 0.6475818431054045,
+      "ci95_high": 0.8724621377569771
+    },
+    "unanswerable": {
+      "questions": 50,
+      "correct": 14,
+      "accuracy": 0.28,
+      "ci95_low": 0.17474014357680362,
+      "ci95_high": 0.4166538714598967
+    }
+  },
+  "retrieval": {
+    "questions": 200,
+    "hit_rate_at_1": 0.845,
+    "hit_rate_at_5": 0.97,
+    "all_gold_sources_at_5_multi_hop": 0.76,
+    "mrr": 0.9,
+    "search_latency_p50_ms": 11.228875000597327
+  },
+  "abstention": {
+    "correct_refusal_rate": 0.28,
+    "false_refusal_rate": 0.03
+  },
+  "citations": {
+    "any_correct_source_rate": 0.95,
+    "precision": 0.902
+  },
+  "latency_seconds": {
+    "p50": 3.5250203340001462,
+    "p95": 7.212195833000806
+  },
+  "cost": {
+    "total_usd": 0.043313849999999925,
+    "per_question_usd": 0.0001732553999999997
+  },
+  "errors": 0,
+  "access_control": {
+    "attempts": 50,
+    "leaked_chunks": 0,
+    "hr_can_still_read": 50
+  }
+}

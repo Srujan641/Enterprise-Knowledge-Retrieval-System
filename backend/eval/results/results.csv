@@ -1,0 +1,680 @@
+id,category,question,expected,rag_answer,correct,abstained,sources,latency_seconds,error
+0,fact,"Other than Universal and Warner Brothers, what other company runs a major record company?",Sony,"Sony. 
+
+Source: squad_0014.txt",True,False,squad_0014.txt,3.13,
+1,fact,What is Southern California often abbreviated as?,SoCal,"SoCal. 
+
+Source: squad_0008.txt",True,False,squad_0008.txt,3.12,
+2,fact,"Many changes in the vegetation of the amazon rainforest took place since the  Last Glacial Maximum, which was how many years ago?","21,000","About 21,000 years ago. 
+Source: squad_0043.txt",True,False,squad_0043.txt,4.07,
+3,fact,What does the name Fresno mean in Spanish?,ash tree,"Fresno means ""ash tree"" in Spanish. 
+
+Source: squad_0048.txt",True,False,squad_0048.txt,3.33,
+4,fact,What was one of the Norman's major exports?,fighting horsemen,One of the Normans’ major exports was fighting horsemen (heavy cavalry). Source: squad_0006.txt,True,False,squad_0006.txt,3.80,
+5,fact,Who do coordinating lead authors report to?,Working Group chairs | the Working Group chairs,They report to the Working Group chairs. Source: squad_0109.txt.,True,False,squad_0109.txt,3.33,
+6,fact,What has a classification system for construction companies?,Standard Industrial Classification | The Standard Industrial Classification and the newer North American Industry Classification System,"- The Standard Industrial Classification (SIC) and the North American Industry Classification System (NAICS) have a classification system for construction.
+- They divide construction into three subsectors: building construction, heavy and civil engineering construction, and specialty trade contractors.
+- There are also categories for construction service firms (e.g., engineering, architecture) and construction managers.
+
+Source: squad_0076.txt",True,False,squad_0076.txt,5.11,
+7,fact,What has caused Oxfam's findings to be questioned?,"""silly argument"" and ""a non-issue . . . a diversion."" | basis of the methodology | basis of the methodology used | the methodology used","- The main issue is the methodology: Oxfam uses net wealth (assets minus debts) to measure wealth distribution. Critics argue this debt-based accounting can distort who is considered “poor” or “wealthy,” e.g., it may show more poor people in the US and Western Europe than in China because debt levels differ by region.
+- A notable critic mentioned is Anthony Shorrocks, who, while acknowledging the data source (Credit Suisse) and Oxfam’s approach, described the debt-related criticisms as a “silly argument” and “a non-issue” in his view.
+
+Source: squad_0088.txt",False,False,squad_0088.txt,5.20,
+8,fact,What was apolitical Islam?,a historical fluke | historical fluke | political Islam,"- Apolitical Islam is the idea that Islam is not a political ideology or that religion and politics can be kept separate. Some scholars and observers argue this is a contested or erroneous view, since many contend Islam inherently encompasses political dimensions. (Source: squad_0123.txt)
+
+- Conversely, others describe apolitical Islam as a historical exception: it was a short-lived phenomenon described as a “quietist/non-political Islam,” and they frame apolitical Islam as a historical fluke of the era of secular Arab nationalism (roughly 1945–1970). (Source: squad_0124.txt)
+
+- In short, apolitical Islam is debated: some treat Islam as inherently political, while others regard apolitical Islam as either a valid but temporary historical phase or a misconception. (Sources: squad_0123.txt, squad_0124.txt)
+
+Source: squad_0123.txt
+Source: squad_0124.txt",True,False,squad_0123.txt | squad_0124.txt,6.00,
+9,fact,"Orange, San Diego, Riverside and San Bernardino make up four of the five counties. What is the name of the last county?",Los Angeles | Riverside,"Los Angeles County.
+
+Source: squad_0010.txt",True,False,squad_0010.txt,4.51,
+10,fact,What was the steam engine an important component of?,Industrial Revolution | the Industrial Revolution,"The Industrial Revolution. (The stationary steam engine was a key component of it.) 
+
+Source: squad_0031.txt",True,False,squad_0031.txt,3.29,
+11,fact,The Amazon rainforest makes up what amount of Earth's rainforests?,over half,"The Amazon rainforest represents over half of the planet's remaining rainforests (more than 50%). 
+Source: squad_0040.txt",True,False,squad_0040.txt,4.85,
+12,fact,When was the heyday of secular Arab nationalism?,between 1945 and 1970,"The heyday of secular Arab nationalism is described as between 1945 and 1970. 
+
+Source: squad_0124.txt",True,False,squad_0124.txt,3.58,
+13,fact,In what constituent country of the United Kingdom is Merthyr Tydfil located?,Wales | south Wales,"I couldn’t locate information about Merthyr Tydfil in the provided knowledge base. The KB content retrieved does not include this fact. If you’d like, I can run another targeted search.",False,True,squad_0022.txt | wiki_157e3c4f8e.txt | wiki_ba9ad7b731.txt | wiki_d3bb6a3427.txt | wiki_d897e2ca12.txt,4.49,
+14,fact,How do you pronounce Fresno?,(/ˈfrɛznoʊ/ FREZ-noh) | FREZ-noh,"Fresno is pronounced FREZ-noh (phonetic: /ˈfrɛznoʊ/).  
+Source: squad_0048.txt",True,False,squad_0048.txt,3.31,
+15,fact,What has an equivalence between mass and space-time?,General relativity,"General relativity offers an equivalence between space-time and mass. 
+Source: squad_0143.txt",True,False,squad_0143.txt,3.00,
+16,fact,Who was a man studying medicinal applicants of plants in Ancient Greece?,Diocles of Carystus,"Diocles of Carystus. 
+
+Source: squad_0067.txt",True,False,squad_0067.txt,8.72,
+17,fact,In which point did the drainage basin of the Amazon split?,"During the mid-Eocene | During the mid-Eocene, it is believed that the drainage basin of the Amazon was split along the middle of the continent by the Purus Arch. | mid-Eocene",It split along the Purus Arch (during the mid-Eocene). Source: squad_0042.txt.,True,False,squad_0042.txt,3.77,
+18,fact,What type of professionals are pharmacists?,healthcare | healthcare professionals | healthcare professionals with specialised education,"Pharmacists are healthcare professionals with specialised education and training who work to ensure optimal health outcomes through the quality use of medicines. They may also be small-business proprietors, owning the pharmacy in which they practice. Source: squad_0065.txt.",True,False,squad_0065.txt,4.52,
+19,fact,"In a market economy, what is inequality a reflection of?",productivity gap | productivity gap between highly-paid professions and lower-paid professions,Inequality in a market economy is a reflection of differences in productivity—specifically the productivity gap between highly paid and lower-paid professions (the marginal value added by different actors). Source: squad_0090.txt.,True,False,squad_0090.txt,4.22,
+20,fact,The Central Pacific Railroad established a station for its new line in what year?,1872,"1872. 
+
+Source: squad_0049.txt",True,False,squad_0049.txt,3.94,
+21,fact,How many square kilometers of rainforest is covered in the basin?,"5,500,000 | 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest.","5,500,000 square kilometers. 
+
+Source: squad_0040.txt",True,False,squad_0040.txt,3.79,
+22,fact,What are construction managers?,(firms engaged in managing construction projects without assuming direct financial responsibility for completion of the construction project) | firms engaged in managing construction projects | firms engaged in managing construction projects without assuming direct financial responsibility for completion of the construction project,"Construction managers are firms (or professionals) that oversee and coordinate construction projects but do not take on direct financial responsibility for completing the project. Their role is to manage the planning, scheduling, budgeting, procurement, safety, and site coordination, supervising the work on behalf of the client or project owner. They may oversee designs, engineers, and contractors to ensure the project progresses smoothly and meets requirements.
+
+Sources: squad_0076.txt, squad_0073.txt",False,False,squad_0073.txt | squad_0076.txt,4.64,
+23,fact,How many bodies of water makes up Lake Constance? ,three | three bodies of water:,"Three.
+
+Source: squad_0118.txt",True,False,squad_0118.txt,3.40,
+24,fact,What pushes businesses to increase pressures on workers?,pressure to reduce costs and maximize profits | reduce costs and maximize profits | substitution of capital equipment for labor,"- Competitive pressure to reduce costs and maximize profits pushes firms to substitute capital equipment for labor (automation, mechanization).
+- Over time, this raises the organic composition of capital (less labor relative to capital), increasing unemployment (the “reserve army of labour”) and exerting downward pressure on wages.
+
+Source: squad_0091.txt",True,False,squad_0091.txt,4.08,
+25,fact,What is one of the reason that underdeveloped nations received aid from the oil income?,economies had been caught between higher oil prices and lower prices for their own export commodities | shrinking Western demand,"One reason was that these underdeveloped nations’ economies were squeezed between higher oil prices and lower prices for their own export commodities, amid shrinking Western demand. Source: squad_0038.txt",True,False,squad_0038.txt,3.95,
+26,fact,How much Victorian farmland is farmed in grains?,"26,000 square kilometres","Approximately 26,000 square kilometres of Victorian farmland are sown for grain (mostly in the west). Of this grain area, about 50% is sown for wheat, 33% for barley, and 7% for oats. Source: squad_0023.txt.",True,False,squad_0023.txt,4.27,
+27,fact,What kind of representational system does the Victorian Legislative Council have?,multi-member proportional | multi-member proportional representation system,"The Victorian Legislative Council uses a multi-member proportional representation system: Victoria is divided into eight electorates, each electing five representatives by the Single Transferable Vote (STV). Source: squad_0018.txt",True,False,squad_0018.txt,3.53,
+28,fact,What did the Rhine branch off to form in Austria?,islands | small islands | small islands by precipitating sediments,"It formed an inland delta at Lake Constance (the Rhine Delta). 
+Source: squad_0116.txt",False,False,squad_0116.txt,5.42,
+29,fact,What is the strongest main interaction?,"strong | strong, | strong, electromagnetic","The strong interaction (strong nuclear force) is the strongest main interaction. It is the strongest of the four fundamental forces, followed by electromagnetic, weak, and gravitational. Source: squad_0137.txt.",True,False,squad_0137.txt,3.82,
+30,fact,What term resulted from Dioscorides' book?,materia medica,"The term is ""materia medica."" Source: squad_0067.txt",True,False,squad_0067.txt,3.48,
+31,fact,Who was yersinia pestis named for?,Alexandre Yersin | French-Swiss bacteriologist Alexandre Yersin,"Yersinia pestis was named after Alexandre Yersin, the French-Swiss bacteriologist who identified the pathogen. Source: squad_0063.txt.",True,False,squad_0063.txt,4.80,
+32,fact,After what higher learning model was the school designed?,English university | English university model,It was designed after the English university model. Source: squad_0084.txt,True,False,squad_0084.txt,6.36,
+33,fact,What do capitalist firms substitute equipment for in a Marxian analysis?,labor inputs | labor inputs (workers),"Capitalist firms substitute capital equipment for labor inputs (i.e., workers). This refers to mechanization/automation replacing human labor in a Marxian analysis. 
+Source: squad_0091.txt",True,False,squad_0091.txt,3.39,
+34,fact,When there are many workers competing for a few jobs its considered as what?,high supply | low demand | low wage,"It's a high-supply, low-demand situation in the labor market, where competition among many workers drives wages down (i.e., a low wage for that job). Source: squad_0093.txt.",True,False,squad_0093.txt,5.80,
+35,fact,In which two codes were the roles of pharmacists codified?,Taihō Code (701) and re-stated in the Yōrō Code | the Taihō Code (701) and re-stated in the Yōrō Code (718),"- The Taihō Code (701)
+- The Yōrō Code (718)
+
+Source: squad_0068.txt",False,False,squad_0068.txt,5.46,
+36,fact,"Why did Warsaw gain the title of the ""Phoenix City""?","because it has survived many wars, conflicts and invasions throughout its long history | it has survived many wars, conflicts and invasions | survived many wars, conflicts and invasions","Warsaw gained the title ""Phoenix City"" because it has survived many wars and invasions throughout its history and, most notably, rebuilt painstakingly after World War II when about 85% of its buildings were destroyed. Source: squad_0130.txt.",False,False,squad_0130.txt,4.30,
+37,fact,"How many nations contain ""Amazonas"" in their names?","States or departments in four nations contain ""Amazonas"" in their names. | four",Four nations. Source: squad_0040.txt,True,False,squad_0040.txt,4.30,
+38,fact,"After the Dornbirner Ach was diverted, where does the Rhine flow now?",into the lake | parallel to the canalized Rhine | parallel to the canalized Rhine into the lake. | the canalized Rhine,It now flows parallel to the canalized Rhine into Lake Constance (the Bodensee). Source: squad_0117.txt,True,False,squad_0117.txt,3.50,
+39,fact,What impact does higher worker productivity and leveled pay have on higher earners?,downward pressure on wages | rising levels of property income,"- Neoclassical view (squad_0090.txt):
+  - Higher productivity increases the marginal value added by different workers. In this view, inequalities in income arise from differences in value added, so higher productivity tends to widen the earnings gap between highly paid and lower-paid professions. Leveling pay is not explicitly discussed, but the implication is that pay differences reflect productivity differences.
+
+- Marxian view (squad_0091.txt):
+  - Increased productivity often comes from substituting capital for labor, which raises the overall productivity of each worker but tends to keep wages for the working class relatively stagnant. At the same time, profits or property income for capital owners rise, widening the gap between workers and capital owners. Leveling pay is not addressed.
+
+- Bottom line:
+  - Higher worker productivity is associated with larger gaps between high earners and others in both sources, but the mechanisms differ: neoclassical links it to value-added-based wage differences; Marxian links it to capital deepening and rising profits for owners, with wages for workers not keeping pace.
+
+Notes:
+- The sources do not explicitly discuss “leveled pay.” If you want a precise treatment of leveling pay, I can search for that concept specifically. 
+Sources: squad_0090.txt, squad_0091.txt",False,False,squad_0090.txt | squad_0091.txt,11.31,
+40,fact,In 1500 AD how many people were believed to have lived in the Amazon region?,5 million | 5 million people | Some 5 million,About 5 million people. Source: squad_0045.txt.,True,False,squad_0045.txt,3.47,
+41,fact,What dynasty came after the Yuan?,Ming dynasty | the Ming dynasty,"The Ming dynasty came after the Yuan.
+
+Source: squad_0097.txt",True,False,squad_0097.txt,3.86,
+42,fact,What type of interpretation of Islam does Salafism promote?,"conservative | strict, conservative","Salafism promotes a strict, conservative (often literalist) interpretation of Islam, exemplified by Wahhabism. It emphasizes strict adherence to sharia, and is associated with a rejection of Shia Islam and a focus on puritanical practice rather than building Islamic institutions. 
+
+Source: squad_0127.txt
+Source: squad_0122.txt",True,False,squad_0122.txt | squad_0127.txt,5.18,
+43,fact,On what date did the first railway trip in the world occur?,21 February 1804,The world's first railway journey occurred on 21 February 1804. Source: squad_0026.txt.,True,False,squad_0026.txt,2.74,
+44,fact,What are the exchanged particles predicted by the standard Model?,gauge bosons,"From the Standard Model, the exchanged particles are gauge bosons. The known gauge bosons are:
+- Gluons (strong force)
+- Photons (electromagnetic force)
+- W and Z bosons (weak force)
+
+Source: squad_0137.txt",True,False,squad_0137.txt,5.87,
+45,fact,What river is larger than the Rhine?,Danube | the Danube,The Danube. It is the only river noted as longer than the Rhine in Central and Western Europe. Source: squad_0112.txt.,True,False,squad_0112.txt,3.69,
+46,fact,Where did the world's first railway journey terminate?,Abercynon | Abercynon in south Wales,"The world’s first railway journey terminated at Abercynon in south Wales. 
+
+Source: squad_0026.txt",True,False,squad_0026.txt,4.48,
+47,fact,What other role do many pharmacists play?,small-business proprietors,"Many pharmacists may also be small-business proprietors, owning the pharmacy in which they practice. Source: squad_0065.txt.",True,False,squad_0065.txt,3.56,
+48,fact,Who was the first European to travel the Amazon River?,Francisco de Orellana,Francisco de Orellana. Source: squad_0046.txt.,True,False,squad_0046.txt,2.76,
+49,fact,What Chinese era name did Kublai adopt?,Zhongtong | Zhongtong. Ariq Böke,"Kublai adopted the Chinese era name Zhongtong. 
+
+Source: squad_0102.txt",True,False,squad_0102.txt,3.18,
+50,fact,From whom were the movement that Eliot followed derived?,William Ellery Channing and Ralph Waldo Emerson,From William Ellery Channing and Ralph Waldo Emerson. Source: squad_0087.txt,True,False,squad_0087.txt,4.59,
+51,fact,Where did water to the west of the Amazon drainage basin flow towards?,Pacific | the Pacific,Water to the west flowed toward the Pacific Ocean across the Amazonas Basin. Source: squad_0042.txt.,True,False,squad_0042.txt,3.85,
+52,fact,Which park is home to the Kearney Mansion?,Kearney Park,"Kearney Park in Fresno. It is home to the historic Kearney Mansion. 
+
+Source: squad_0053.txt",True,False,squad_0053.txt,3.47,
+53,fact,How many electorates does the State of Victoria have?,eight,Eight electorates. Source: squad_0018.txt,True,False,squad_0018.txt,3.91,
+54,fact,What is it called when the tax rate and base amount increase simultaneously?,progressive | progressive tax,"I can’t find a term in the provided knowledge base that matches “the tax rate and base amount increase simultaneously.” The available sources discuss related topics (e.g., tax progressivity, rate structures) but do not name this specific scenario.
+
+Used sources:
+- squad_0035.txt
+- squad_0095.txt
+- squad_0091.txt
+- wiki_8c15563302.txt
+- wiki_b10a8507ce.txt
+
+If you can share more context or specify the jurisdiction or time period, I can try to locate a more precise term.",False,True,squad_0035.txt | squad_0091.txt | squad_0095.txt | wiki_8c15563302.txt | wiki_b10a8507ce.txt,8.88,
+55,fact,What may explain why some Americans who've become rich may have had a head start?,Inherited wealth,"Inherited wealth and substantial privilege. The report notes that inherited wealth may help explain a substantial head start for many Americans who become rich, with over 60 percent of the Forbes richest 400 Americans having grown up in substantial privilege. Source: squad_0089.txt.",True,False,squad_0089.txt,4.41,
+56,fact,What is the other country the Rhine separates Switzerland to? ,Austria | Austria to the East. | Liechtenstein,"Liechtenstein. 
+
+Source: squad_0115.txt, squad_0112.txt",True,False,squad_0112.txt | squad_0115.txt,5.03,
+57,fact,How many lead authors does an IPCC report chapter have?,ten to fifteen,"Typically ten to fifteen lead authors. 
+Source: squad_0109.txt",True,False,squad_0109.txt,3.19,
+58,fact,"Who wrote ""Walking in Fresno?""",Bill Aken,"Bill Aken wrote the song. It’s listed as ""Walking Into Fresno"" (the source refers to it that way), written by Hall Of Fame guitarist Bill Aken. Source: squad_0052.txt",True,False,squad_0052.txt,4.60,
+59,fact,"Who acts as laborer, paymaster, and design team for a renovation project?",owner of the property | the owner | the owner of the property,"The owner of the property acts as the laborer, paymaster, and design team for the project (especially in small renovation projects). 
+
+Source: squad_0077.txt",True,False,squad_0077.txt,3.04,
+60,fact,Who was Shi Tianze's father?,Shi Bingzhi,"Shi Tianze’s father was Shi Bingzhi (史秉直, Shih Ping-chih). 
+Source: squad_0101.txt",True,False,squad_0101.txt,2.75,
+61,fact,What does the UN want to stabilize?,greenhouse gas concentrations in the atmosphere | stabilize greenhouse gas concentrations in the atmosphere,The United Nations (via the UNFCCC) aims to stabilize greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous anthropogenic (human-caused) interference with the climate system. Source: squad_0104.txt,True,False,squad_0104.txt,2.74,
+62,fact,Which country was the last to receive the disease?,Russia | northwestern Russia,"Russia (northwestern Russia, reached in 1351). Source: squad_0059.txt",True,False,squad_0059.txt,4.29,
+63,fact,What conviction motivated Eliot to move towards secularization?,Transcendentalist Unitarian,He was motivated by Transcendentalist Unitarian convictions (not a desire to secularize for its own sake). Source: squad_0087.txt.,True,False,squad_0087.txt,3.50,
+64,fact,What is the name of the area past the border that the megaregion extends into?,Tijuana,"Tijuana. 
+
+Source: squad_0009.txt",True,False,squad_0009.txt,3.58,
+65,fact,What kind of forest is the Amazon rainforest?,moist broadleaf forest | tropical,"- The Amazon rainforest is a moist broadleaf forest, i.e., a tropical rainforest.
+- It is the largest and most biodiverse tract of tropical rainforest in the world.
+
+Source: squad_0040.txt",True,False,squad_0040.txt,2.69,
+66,fact,Who was influential in promoting the use of chemical compounds as medicines?,Muhammad ibn Zakarīya Rāzi,Muhammad ibn Zakariya al-Razi (Rhazes) was influential in promoting the medical use of chemical compounds. Source: squad_0069.txt.,False,False,squad_0069.txt,2.57,
+67,fact,"What is the newer, more widely accepted theory behind the spread of the plague?",That the plague was caused by bad air | bad air | great pestilence in the air,"The newer, widely accepted theory is that the plague spread primarily through fleas that live on black rats. These fleas bite humans after feeding on infected rodents, transmitting Yersinia pestis. This transmission mechanism and the maritime/overland routes (e.g., along trade networks) are described in the sources.
+
+- Source: squad_0056.txt
+- Source: squad_0063.txt",False,False,squad_0056.txt | squad_0063.txt,8.39,
+68,fact,What describes the proportionality of acceleration to force and mass?,Newton's Second Law,Newton's Second Law describes this: acceleration is directly proportional to the applied force and inversely proportional to the mass (a = F/m). Source: squad_0143.txt.,True,False,squad_0143.txt,3.95,
+69,fact,"Along with Stephenson and Walschaerts, what is an example of a simple motion?",Joy,Joy motion. Source: squad_0029.txt,True,False,squad_0029.txt,5.93,
+70,fact,How is income inequality generally viewed by workers?,unfair,"- In neoclassical terms, inequality is seen as a reflection of differences in value added by labor, capital, and land. Among workers, this maps to differences in productivity and the market value of different skills, so wages and income diverge with the relative productivity of jobs. (Source: squad_0090.txt)
+
+- Many workers view market-driven wage differences as potentially unfair. Markets can concentrate wealth and produce high inequality, and even when wages reflect skill differences, the overall level of inequality is often seen as unfair or undeserved. (Source: squad_0092.txt)
+
+- Wages are also influenced by competition among employers and by the organization of labor. Professional and labor organizations can limit supply or leverage collective bargaining to push wages higher for their members, indicating that unions and collective action can shape income distribution beyond pure market outcomes. (Source: squad_0093.txt)
+
+Overall takeaway from the sources: workers typically see income inequality as largely driven by market pricing of skills and productivity, but many also view the resulting inequality as unfair, with unions and collective bargaining able to affect wages and reduce or channel that inequality. (Sources: squad_0090.txt, squad_0092.txt, squad_0093.txt)",True,False,squad_0090.txt | squad_0092.txt | squad_0093.txt,5.37,
+71,fact,Under what law is value of a worker determined?,law of supply and demand | supply and demand,"The law of supply and demand. (The price of skill is determined by the competition between the demand for skilled workers and the supply of skilled workers.)
+
+Source: squad_0092.txt",True,False,squad_0092.txt,3.54,
+72,fact,"After the operators are warned by the escape of the steam, what may they then do?",manually suppress the fire,"They may then manually suppress the fire. 
+
+Source: squad_0030.txt",True,False,squad_0030.txt,2.74,
+73,fact,What publication printed that the wealthiest 1% have more money than those in the bottom 90%?,New York Times,"The New York Times. 
+
+Source: squad_0089.txt",True,False,squad_0089.txt,3.58,
+74,fact,What is the name of the area that the main campus is centered in Cambridge?,Harvard Yard,Harvard Yard. Source: squad_0082.txt,True,False,squad_0082.txt,2.66,
+75,fact,What has caused savanna regions to grow into the South American tropics in the last 34 million years?,Climate fluctuations,"Climate fluctuations over the last 34 million years. These shifts in climate allowed savanna regions to expand into the tropical South American realm—the rainforest narrowed in the Oligocene, expanded in the Middle Miocene, and then retracted during later glacial periods. 
+
+Source: squad_0041.txt",True,False,squad_0041.txt,3.69,
+76,fact,In what year did Fresno get its first pedestrian mall?,1964,1964. Source: squad_0055.txt,True,False,squad_0055.txt,3.01,
+77,fact,Where does the Rhine begin? ,Old Rhine Bridge | Old Rhine Bridge at Constance | the Old Rhine Bridge at Constance,"The Rhine begins in the Swiss canton of Graubünden in the southeastern Swiss Alps. 
+
+Source: squad_0112.txt",False,False,squad_0112.txt,4.00,
+78,fact,How many degrees south did the Amazon rainforest reach from 66-34 Mya?,45 | 45°,"The rainforest extended as far south as 45 degrees during 66–34 Mya.
+
+Source: squad_0041.txt",True,False,squad_0041.txt,3.61,
+79,fact,In what year did ENR compile data in nine market segments?,2014,"2014.
+
+Source: squad_0075.txt",True,False,squad_0075.txt,2.67,
+80,fact,How much of Victoria's farmland grows hay?,"6,000 square kilometres","About 6,000 square kilometres (roughly 2,300 square miles) of Victorian farmland is sown for hay. Source: squad_0023.txt.",True,False,squad_0023.txt,3.53,
+81,fact,How many tons of dust are blown from the Sahara each year?,182 million | 182 million tons | an average 182 million,"About 182 million tons of dust are blown from the Sahara each year.
+
+Source: squad_0044.txt",True,False,squad_0044.txt,3.82,
+82,fact,In what town did Bill Aiken grow up?,Madera,He grew up in Madera. Source: squad_0052.txt,True,False,squad_0052.txt,2.66,
+83,fact,What does Obersee mean?,"(""upper lake"" | upper lake","Obersee means “upper lake” in German. 
+
+Source: squad_0118.txt",True,False,squad_0118.txt,3.73,
+84,fact,What part of France were the Normans located?,north | the north,"They were located in Normandy, a northern region of France. The Duchy of Normandy was established in the northern part of present-day Upper Normandy down to the Seine, and later extended westward. Source: squad_0000.txt, squad_0003.txt, squad_0001.txt.",False,False,squad_0000.txt | squad_0001.txt | squad_0003.txt,4.50,
+85,fact,Who moved his court from Kraków to Warsaw in 1596?,King Sigismund III Vasa,"It was King Sigismund III Vasa who moved his court from Kraków to Warsaw in 1596. 
+Source: squad_0130.txt, squad_0134.txt",True,False,squad_0130.txt | squad_0134.txt,3.99,
+86,fact,What can lead to higher wages for members of labor organizations?,"collective bargaining, political influence, or corruption","Possible ways wages can be higher for members of labor (professional and labor) organizations, according to the retrieved content:
+
+- They may limit the supply of workers, increasing demand for members and raising incomes.
+- Members can receive higher wages through collective bargaining.
+- Political influence can lead to higher wages.
+- Corruption is mentioned as a potential factor increasing wages.
+
+Source: squad_0093.txt",False,False,squad_0093.txt,4.10,
+87,fact,What caused changes in the Amazon rainforest vegetation?,rainfall | rainfall in the basin during the LGM was lower than for the present | the Last Glacial Maximum (LGM) and subsequent deglaciation,"The Amazon rainforest vegetation has changed mainly due to natural climate fluctuations over long timescales, and more recently due to human management in some areas.
+
+- Climate-driven changes: After the dinosaur extinction, a wetter tropical climate helped rainforest spread; climate fluctuations in the last ~34 million years allowed savannas to expand into the tropics, with the rainforest expanding and retracting in different periods (Middle Miocene expansion, Last Glacial Maximum contraction, inland refugia debates) (sources mention broad patterns of expansion/contraction linked to rainfall and climate changes). There is evidence the Last Glacial Maximum (LGM) had lower rainfall, leading to reduced moist vegetation and possibly refugia vs. widespread forest in other interpretations (LGM and deglaciation period). (Sources: squad_0041.txt, squad_0043.txt)
+
+- Human influence: Terra preta soils indicate long-term indigenous soil management, enabling agriculture and silviculture in the rainforest, suggesting that large portions of the Amazon may be shaped by centuries of human activity rather than purely natural processes. (Source: squad_0047.txt)
+
+- Additional context: There are debates about how extensive the LGM impact was and whether the forest remained largely intact or was reduced to small refugia; data limitations make it hard to resolve. (Source: squad_0043.txt)
+
+If you want, I can pull direct quotes or map these points to specific time periods. 
+
+Source: squad_0041.txt
+Source: squad_0043.txt
+Source: squad_0047.txt",True,False,squad_0041.txt | squad_0043.txt | squad_0047.txt,7.21,
+88,fact,Who proposed that innate intertial is the natural state of objects?,Newton,"Isaac Newton. His First Law states that objects have an innate inertia and tend to maintain constant velocity, making inertia the natural state of motion (not rest). Source: squad_0140.txt.",True,False,squad_0140.txt,4.22,
+89,fact,"After reopening, where will the art pieces be located after restoration?",near their current locations,"They will be restored and placed near their current locations. 
+
+Source: squad_0055.txt",True,False,squad_0055.txt,2.58,
+90,fact,When were the shortcomings of Aristotle's physics overcome?,17th century | the 17th century,"The shortcomings were overcome starting in the 17th century, with Galileo Galilei questioning Aristotelian motion and Newton then completing the correction with his laws of motion; further refinements came in the early 20th century with Einstein’s relativity. 
+
+Sources: squad_0139.txt, squad_0136.txt, squad_0140.txt",True,False,squad_0136.txt | squad_0139.txt | squad_0140.txt,5.33,
+91,fact,What was invented by Savery?,steam pump,"Savery invented the steam pump.  
+Source: squad_0025.txt",True,False,squad_0025.txt,2.45,
+92,fact,What is the term that describes the difference between what higher paid and lower paid professionals earn?,productivity gap,"The difference is referred to as wage inequality (often called the wage gap or pay gap). In economics, this gap is also related to the idea of a skill premium—the higher earnings associated with higher-skilled professions. 
+
+Source: squad_0090.txt, squad_0092.txt, squad_0093.txt",False,False,squad_0090.txt | squad_0092.txt | squad_0093.txt,5.78,
+93,fact,In what year is the oldest pharmacy said to have been established?,1221,"The oldest claimed pharmacy was set up in 1221 (Church of Santa Maria Novella in Florence, Italy). Source: squad_0070.txt.",True,False,squad_0070.txt,3.59,
+94,fact,The development of Terra Preta allowed for what to happen in the Amazon Forest?,agriculture and silviculture,"- It allowed agriculture and silviculture to be practiced in the previously hostile environment.
+- It suggests that large portions of the Amazon rainforest are the result of centuries of human management (not just natural processes). 
+
+Source: squad_0047.txt",True,False,squad_0047.txt,2.65,
+95,fact,What is the largest city the Rhine runs through? ,"Cologne | Cologne, Germany","Cologne, Germany. Source: squad_0112.txt.",True,False,squad_0112.txt,2.47,
+96,fact,"In 1942, what was North Fresno previously called?",Pinedale,Pinedale. Source: squad_0050.txt,True,False,squad_0050.txt,4.10,
+97,fact,What are examples of economic actors?,"worker, capitalist/business owner, landlord","Examples of economic actors include:
+- Worker
+- Capitalist / Business owner
+- Landlord
+
+Source: squad_0090.txt",True,False,squad_0090.txt,2.75,
+98,fact,The inland delta at the mouth of the Rhine is with what Lake?,Lake Constance | West by the Alter Rhein,"Lake Constance. 
+Source: squad_0116.txt",True,False,squad_0116.txt,3.00,
+99,fact,Whose work  corrected Aristotle's physics in the seventeenth century?,"Galileo Galilei | Galileo Galilei,","Galileo Galilei and Sir Isaac Newton. 
+Source: squad_0136.txt",True,False,squad_0136.txt,2.66,
+100,unanswerable,What university was John of London an alum of?,(no answer exists),"University of Cambridge.
+
+Source: squad_0083.txt",False,False,squad_0083.txt,3.16,
+101,unanswerable,How large is the Pierre-Auguste Renoir piece?,(no answer exists),"I couldn't find the size/dimensions for the Pierre-Auguste Renoir piece in the retrieved materials. The only note is that it’s “the only Pierre-Auguste Renoir piece in the world that one can walk up to and touch,” but no measurements are given.
+
+Source: squad_0055.txt
+
+If you’d like, I can search again for more details.",True,True,squad_0055.txt,3.31,
+102,unanswerable,When did Fulton Street become the main financial district?,(no answer exists),"It was Fresno’s main financial and commercial district until 1964, when the area was converted into the Fulton Mall pedestrian mall. Source: squad_0055.txt.",False,False,squad_0055.txt,3.84,
+103,unanswerable,How did the crisis impact Arabs?,(no answer exists),"The crisis affected Arabs in several interconnected ways:
+
+- Oil price surge and economic impact
+  - The embargo and price rise from about $3 to nearly $12 per barrel created a large macroeconomic windfall for Arab oil producers, changing the global economic landscape and contributing to the so‑called first oil shock. (Source: squad_0032.txt)
+
+- Political leverage and policy leverage
+  - Arab oil producers used their leverage to tie future policy changes to peace in the Arab–Israeli conflict. This crisis created a rift in international alignment (e.g., some European and Japanese actors sought distance from U.S. Middle East policy). The embargo pressured negotiations, including U.S.-brokered steps toward Israeli withdrawal from parts of Sinai and the Golan Heights, and it was used as a bargaining tool by Arab producers. (Source: squad_0033.txt)
+
+- Embargo and diplomatic outcomes
+  - The initial embargo and its eventual lift in March 1974 were tied to security and diplomatic concessions, rather than purely economic forces. This demonstrated the political use of oil as a strategic asset by Arab states. (Source: squad_0033.txt; 0037)
+
+- Redistribution of wealth and use of proceeds
+  - A portion of the income from higher oil prices was channeled to aid underdeveloped nations amid shifting demand, while significant funds were spent on military could drive regional dynamics. (Source: squad_0038.txt)
+
+- Long-term regional and religious influence
+  - In the decades following the crisis, substantial oil proceeds funded various expenditures, including arms purchases and efforts to spread certain religious orientations (e.g., Wahhabism), which shaped regional and global political-religious dynamics. (Source: squad_0038.txt)
+
+Notes:
+- The sources mainly describe the economic shock, the political leverage over policy, and subsequent spending patterns that affected the region and beyond. If you’d like, I can pull these points into a concise summary or timeline. (Sources: squad_0032.txt, squad_0033.txt, squad_0037.txt, squad_0038.txt)",False,False,squad_0032.txt | squad_0033.txt | squad_0037.txt | squad_0038.txt,5.84,
+104,unanswerable,What religion was Shi Tianze?,(no answer exists),"The knowledge base provided does not state Shi Tianze’s religion. It notes that he was a Han Chinese general who defected from Jin to the Mongols, but it does not specify his religious affiliation.
+
+- Source: squad_0101.txt
+- Source: squad_0100.txt",True,True,squad_0100.txt | squad_0101.txt,4.36,
+105,unanswerable,When did commodities readjust to oil prices?,(no answer exists),"- Commodities largely readjusted to oil prices during the 1973–1974 period, with price levels largely returning to Bretton Woods equivalents (e.g., after the 1973–74 price shocks, by 1974). This is noted as the substantial readjustment period that brought prices and incomes back toward Bretton Woods levels, in terms of commodities such as gold. 
+- The 1973–1974 oil shock itself lasted from the October 1973 embargo through March 1974, when oil prices had risen sharply.
+
+Sources: squad_0035.txt, squad_0032.txt",False,False,squad_0032.txt | squad_0035.txt,5.29,
+106,unanswerable,How long are the trails in Roeding Park?,(no answer exists),"I couldn't find a specific trail length for Roeding Park in the knowledge base. The only related entry notes that Roeding Park is near Downtown Fresno and is home to the Fresno Chaffee Zoo, Rotary Storyland and Playland, but it does not state trail lengths. 
+
+Source: squad_0053.txt",True,True,squad_0053.txt,2.86,
+107,unanswerable,What famous surfing spots is Oahu second to?,(no answer exists),"Oahu is said to be second to Southern California in terms of famous surf breaks. 
+
+Source: squad_0015.txt",False,False,squad_0015.txt,3.38,
+108,unanswerable,What was the first true vacuum that was commercially successful?,(no answer exists),"The first commercially successful “true vacuum” engine was the atmospheric engine invented by Thomas Newcomen (circa 1712). It produced power by creating a partial vacuum in a cylinder by condensing steam, and was mainly used for pumping water. Source: squad_0025.txt.",False,False,squad_0025.txt,4.96,
+109,unanswerable,Under what law is value of a worker undetermined?,(no answer exists),"Under the law of supply and demand. In a purely capitalist mode, wages (the value of a worker) are determined by the market price of skill, i.e., by the competition between supply and demand for skilled labor. Source: squad_0092.txt",False,False,squad_0092.txt,9.21,
+110,unanswerable,What were the conditions for miners in Ireland and China?,(no answer exists),"- The conditions on the gold fields were cramped and unsanitary.
+- There was a serious typhoid outbreak at Buckland Valley in 1854 that killed over 1,000 miners.
+- Chinese miners were present in Victoria (notably Bendigo), and while there was racism directed at them, it did not reach the level of anti-Chinese violence seen elsewhere (though there was a riot at Buckland Valley in 1857).
+
+Source: squad_0017.txt",False,False,squad_0017.txt,5.41,
+111,unanswerable,How many people live in Riverside? ,(no answer exists),The Riverside–San Bernardino area has over four million inhabitants. Source: squad_0010.txt.,False,False,squad_0010.txt,2.97,
+112,unanswerable,What was one of the cities that had a port on the Black Sea?,(no answer exists),Kaffa (in the Crimea). Source: squad_0058.txt,False,False,squad_0058.txt,3.08,
+113,unanswerable,What removed a hierarchical structure?,(no answer exists),"I couldn’t find an answer in the knowledge base snippets you provided. None of the retrieved sources mention “removing a hierarchical structure” or what entity/remove action did so.
+
+Sources searched:
+- wiki_1c7620e8c6.txt
+- wiki_55c93979a8.txt
+- wiki_8c15563302.txt
+- squad_0088.txt
+
+If you have more context or can rephrase the question (e.g., the domain or document title you expect), I can search again.",True,True,wiki_1c7620e8c6.txt | wiki_55c93979a8.txt | wiki_8c15563302.txt | squad_0088.txt,4.70,
+114,unanswerable,What water is constantly visible along the entire length of the lake?,(no answer exists),"The flow of Rhine water (the Rhine water) is clearly visible along the entire length of the lake. 
+Source: squad_0119.txt",False,False,squad_0119.txt,3.00,
+115,unanswerable,What involves limited production with a designated purchase? ,(no answer exists),"I can’t locate a definition or explanation for the phrase “limited production with a designated purchase” in the materials I searched.
+
+- I checked sources including squad_0078.txt, squad_0092.txt, vendor_contracts.pdf, wiki_0738a868eb.txt, wiki_8c15563302.txt, but none map to that exact concept.
+
+If you can share more context (e.g., the domain—construction, procurement, collectibles—or the exact phrase you saw), I can search again or interpret it based on related terms in the KB.",True,True,squad_0078.txt | squad_0092.txt | vendor_contracts.pdf | wiki_0738a868eb.txt | wiki_8c15563302.txt,3.48,
+116,unanswerable, Who rejected the Mongolian Borjigin clan?,(no answer exists),"Kaidu, Ögedei Khan’s grandson, rejected submitting to Kublai and opposed the Borjigin leadership. Source: squad_0103.txt.",False,False,squad_0103.txt,4.31,
+117,unanswerable, What non-dynasty came before the Yuan?,(no answer exists),"The Mongol Empire. The Yuan dynasty is considered a successor to the Mongol Empire, which ruled before the Yuan was established. 
+
+Source: squad_0097.txt",False,False,squad_0097.txt,6.03,
+118,unanswerable,What did Plato's perspective on science combine?,(no answer exists),"The retrieved material does not directly state Plato’s own perspective on science. It discusses Agassiz’s approach, which combined observation with intuition and the belief that one can grasp a divine plan in all phenomena. It also notes that this view aligned with Common Sense Realism and that Harvard students read Plato and his followers, but it does not attribute a specific combined view to Plato himself. 
+
+Source: squad_0086.txt",False,False,squad_0086.txt,4.46,
+119,unanswerable,What forms Lake Constance into an inland delta?,(no answer exists),The mouth of the Rhine into Lake Constance forms an inland delta. (The delta is delimited by the Alter Rhein to the west and by a modern canalized section to the east; most of it is a nature reserve and bird sanctuary.) — Source: squad_0116.txt,False,False,squad_0116.txt,4.61,
+120,unanswerable,Who was Masovia II of Boleslaw?,(no answer exists),"Masovia II of Boleslaw refers to Bolesław II of Masovia, who was the Prince (duke) of Płock and a ruler in the Masovian Duchy. He established the settlement that would become Warsaw around 1300 and later the duchy’s capital in the early 15th century; the duchy was reincorporated into the Polish Crown in 1526 after the extinction of the local ducal line. 
+
+Source: squad_0133.txt",False,False,squad_0133.txt,2.99,
+121,unanswerable,What does Vriscovci mean in Polish?,(no answer exists),"The knowledge base does not provide a Polish meaning for ""Vriscovci."" It only mentions the Vršovci family as having escaped to Poland, without giving a translation or meaning. Source: squad_0132.txt.",True,True,squad_0132.txt,4.23,
+122,unanswerable,In what year did Alexandre Yersin discover the Yersinia pestis?,(no answer exists),"1894.
+
+Source: squad_0063.txt",False,False,squad_0063.txt,2.86,
+123,unanswerable,There are plenty of experiments that can distinguish whether it is the vehicle that s at rest or what?,(no answer exists),"Short answer: You can’t distinguish, if the vehicle is moving at a constant velocity or if the outside world is moving at a constant velocity. Experiments inside the vehicle yield the same results as if the vehicle were at rest.
+
+What the knowledge base says:
+- Inertial frames related by Galilean transformations are physically indistinguishable for objects in uniform motion (no net external force). This means you cannot tell which frame is “at rest” just from internal experiments. (Source: squad_0140.txt)
+- For example, inside a car moving at constant speed, you can toss a ball straight up and catch it, with no difference from being at rest; the motion observed outside is a different, parabolic path, but inside you cannot tell which frame is at rest. Inertia ties constant-velocity motion to rest in the same way, making the two situations physically indistinguishable. (Source: squad_0141.txt)
+
+What would reveal a difference is acceleration (a non-inertial frame), which introduces fictitious forces that breakers the equivalence. (Implied by the general discussion in the same sources.)
+
+If you want more detail or examples, I can pull additional context from related sections. Source referenced: squad_0140.txt, squad_0141.txt.",False,False,squad_0140.txt | squad_0141.txt,9.22,
+124,unanswerable,What three things are recommended before construction begins?,(no answer exists),"Planning, design, and financing.  
+Source: squad_0072.txt",False,False,squad_0072.txt,3.49,
+125,unanswerable,Who formulated the laws of motion that were not improved-on for nearly three thousand years?,(no answer exists),"Sir Isaac Newton. 
+
+Source: squad_0136.txt",False,False,squad_0136.txt,2.57,
+126,unanswerable,What can decelerate particles close to the speed of light?,(no answer exists),"I can’t find an answer in the provided sources. The retrieved content covers relativity, inertia, and basic force concepts, but it does not specify mechanisms that decelerate particles as they approach the speed of light.
+
+Sources consulted:
+- squad_0136.txt
+- squad_0137.txt
+- squad_0141.txt
+- squad_0142.txt
+- squad_0143.txt
+
+If you’d like, I can search for more detailed explanations on deceleration near light speed from additional materials.",True,True,squad_0136.txt | squad_0137.txt | squad_0141.txt | squad_0142.txt | squad_0143.txt,3.51,
+127,unanswerable, One strategy of Islamization is to not seize power by what methods?,(no answer exists),"Not by revolution or invasion. 
+
+Source: squad_0120.txt",False,False,squad_0120.txt,3.56,
+128,unanswerable,What was one of the countries that had isolated alpine villages?,(no answer exists),"I can’t find any information in the retrieved content about “isolated alpine villages” or a country that had them. The sources consulted include squad_0004.txt, squad_0115.txt, squad_0116.txt, squad_0118.txt, squad_0119.txt, wiki_dc366d770e.txt, wiki_f91c54e510.txt, and squad_0043.txt, but none mention isolated alpine villages or a country associated with them. If you’d like, I can try searching again with a more targeted query.",True,True,squad_0004.txt | squad_0115.txt | wiki_dc366d770e.txt | wiki_f91c54e510.txt | squad_0043.txt | squad_0116.txt | squad_0118.txt | squad_0119.txt,9.45,
+129,unanswerable,What is the largest infrastructure in question referred to?,(no answer exists),"They are referred to as megaprojects. 
+Source: squad_0073.txt",False,False,squad_0073.txt,2.89,
+130,unanswerable,Which sessions had a majority attendance from non-governmental organizations?,(no answer exists),"Based on the retrieved content, there aren’t any sessions listed with a majority attendance from NGOs. The available attendance detail states that at the 2003 meeting, there were 322 attendees, with about seven-eighths of participants from governmental organizations, implying NGOs were a minority.
+
+- Sessions with NGO majority: not found in the sources
+- Most relevant data: ""there were 322 persons in attendance at Sessions with about seven-eighths of participants being from governmental organizations."" Source: squad_0106.txt",True,True,squad_0106.txt,5.42,
+131,unanswerable, What goal does Islamism not have when it comes to society and government?,(no answer exists),"Islamism does not aim to establish democracy as its goal. Its aim is to reorder government and society in accordance with Shari’a (Islamic law), though Islamist movements may still seek legitimacy through democratic elections. 
+
+Source: squad_0122.txt",False,False,squad_0122.txt,3.74,
+132,unanswerable,Water from broke through and joined the westward flow to the Pacific?,(no answer exists),"It joined the easterly flow toward the Atlantic, not the westward flow to the Pacific. Source: squad_0042.txt",False,False,squad_0042.txt,3.97,
+133,unanswerable,What did Arab oil producers link to Japan?,(no answer exists),They said that any future policy changes should be linked to peace between the belligerents (Israel and the Arab states). Source: squad_0033.txt,False,False,squad_0033.txt,2.92,
+134,unanswerable,Who is the President of the IPCC?,(no answer exists),"There is no President of the IPCC. The IPCC is led by a Chair, currently Hoesung Lee, who has held the position since October 8, 2015. Source shows the chair is Hoesung Lee and mentions the previous chairs and the structure around the chair. Source: squad_0105.txt.",False,False,squad_0105.txt,4.91,
+135,unanswerable,What is the Japanese name for the Yuan dynasty?,(no answer exists),"I can’t find a Japanese name for the Yuan dynasty in the provided content. The retrieved sources (squad_0096.txt, squad_0097.txt, squad_0098.txt, squad_0101.txt) discuss the Yuan dynasty in Chinese and other contexts but do not mention its Japanese name.
+
+If you’d like, I can broaden the search to include additional references or resources.",True,True,squad_0096.txt | squad_0097.txt | squad_0098.txt | squad_0101.txt,5.02,
+136,unanswerable,What was the price of oil after the raise? ,(no answer exists),$5.11 per barrel. Source: squad_0037.txt,False,False,squad_0037.txt,5.44,
+137,unanswerable,The idea that Islam can't be apolitical isn't able to be embraced by whom?,(no answer exists),"The idea that Islam is apolitical isn’t embraced by scholars/ observers who don’t believe Islam is merely a political ideology — specifically Fred Halliday, John Esposito, and Muslim intellectuals like Javed Ahmad Ghamidi. 
+
+Source: squad_0123.txt",False,False,squad_0123.txt,3.02,
+138,unanswerable,During what years was William Ellery Channing President of Harvard?,(no answer exists),"William Ellery Channing was never president of Harvard College, so there are no years to list. 
+
+Source: squad_0087.txt, squad_0080.txt",False,False,squad_0080.txt | squad_0087.txt,6.92,
+139,unanswerable,Where is the border of Bavaria?,(no answer exists),"I don’t have information in the retrieved documents that describes where Bavaria’s border is. The results touch on rivers and borders in neighboring regions (e.g., Rhine with Switzerland/Liechtenstein/Austria, Lake Constance touching Bavaria’s shoreline), and Strasbourg near the Germany-France border, but nothing explicitly defining Bavaria’s border.
+
+If you want, I can search again with a more focused query (e.g., “Bavaria border with Germany and neighboring states” or “Bavarian state borders”). 
+
+Sources consulted:
+- squad_0112.txt
+- squad_0115.txt
+- squad_0116.txt
+- squad_0118.txt
+- wiki_a7b90170b4.txt",True,True,squad_0112.txt | squad_0115.txt | squad_0116.txt | squad_0118.txt | wiki_a7b90170b4.txt,4.11,
+140,unanswerable,What makes research in built-in plumbing possible?,(no answer exists),"- Advances in 3D printing (additive manufacturing) for building construction enable integrated, built-in plumbing. Research is made possible by the ability to print buildings with embedded plumbing and electrical facilities in one continuous process. Source: squad_0079.txt",False,False,squad_0079.txt,4.30,
+141,unanswerable, Who did Kublai reject as ruler of Korea?,(no answer exists),"The knowledge base entries provided do not mention Kublai rejecting anyone as ruler of Korea. They only note that he secured the northeast border by installing the hostage prince Wonjong as the ruler of Korea. 
+
+Source used: squad_0103.txt",True,True,squad_0103.txt,10.08,
+142,unanswerable,In what year did the plague begin in the Middle East?,(no answer exists),1347. The plague reached Alexandria in autumn 1347 and then spread to other parts of the Middle East. Source: squad_0060.txt.,False,False,squad_0060.txt,2.78,
+143,unanswerable,How is utility distribution further divided?,(no answer exists),"I can’t find any information in the knowledge base about “how utility distribution is further divided.” The results I checked touch on wealth distribution and taxation (e.g., squad_0088.txt, squad_0090.txt, squad_0095.txt) but none mention a subdivision of “utility distribution.”
+
+If you can share more context or specify the document or domain (e.g., energy utilities, economic metrics, or a particular chapter/section), I can search again.",True,True,squad_0088.txt | squad_0090.txt | squad_0095.txt,6.58,
+144,unanswerable, What don't progressive moderates of Islam seek to separate?,(no answer exists),"They seek to separate religion from politics. 
+
+Source: squad_0123.txt",False,False,squad_0123.txt,4.75,
+145,unanswerable,What sector includes large public works but not utility distribution?,(no answer exists),"Infrastructure.
+
+From the knowledge base: infrastructure is the sector described as including large public works (dams, bridges, highways, water/wastewater) and is also noted to include utility distribution. Source: squad_0074.txt.",False,False,squad_0074.txt,6.57,
+146,unanswerable,Where is the western canal regulation of the Rhine?,(no answer exists),"It was located in the western Rhine Delta, with an upper canal near Diepoldsau and a lower canal at Fußach (the Dornbirner Ach was diverted to run parallel to the canalized Rhine into the lake). Source: squad_0117.txt.",False,False,squad_0117.txt,3.19,
+147,unanswerable,What ideas motivated Channing to remove Christianity as dominant in college curriculum?,(no answer exists),"He was motivated by Transcendentalist Unitarian convictions—specifically a belief in the dignity and worth of human nature, the right and ability of each person to perceive truth, and the indwelling God in each person. This perspective led Charles W. Eliot (influenced by Channing and Emerson) to remove the favored position of Christianity from the curriculum. 
+
+Source: squad_0087.txt",False,False,squad_0087.txt,3.27,
+148,unanswerable,Who is the President of Afghanistan?,(no answer exists),"The knowledge base retrieved does not contain information about the President of Afghanistan. If you’d like, I can perform a broader search or try a different query. 
+
+Source consulted: wiki_1b3edc4188.txt, wiki_1c310590f9.txt, wiki_ab43d1ca69.txt, wiki_f0f4b291b1.txt",True,True,wiki_1b3edc4188.txt | wiki_1c310590f9.txt | wiki_ab43d1ca69.txt | wiki_f0f4b291b1.txt,2.64,
+149,unanswerable,What Classification system is newer than the North American Industry Classification System?,(no answer exists),There isn’t a newer system mentioned beyond NAICS in the provided text. The line indicates that SIC is the older system and NAICS is the newer one. Source: squad_0076.txt,False,False,squad_0076.txt,4.21,
+150,multi_hop,Tysons Galleria is located in what county?,Fairfax County," Fairfax County. 
+
+Source: wiki_1bb4b3ddc9.txt, wiki_17c9f6c9c7.txt",True,False,wiki_17c9f6c9c7.txt | wiki_1bb4b3ddc9.txt,2.68,
+151,multi_hop,Suicide's 1977 released album features a song based on what brand's comic character?,Marvel,The song is based on a Marvel Comics character (Ghost Rider). Source: wiki_7e86ab1711.txt and the album page wiki_9dde6aa211.txt.,True,False,wiki_7e86ab1711.txt | wiki_9dde6aa211.txt,3.52,
+152,multi_hop,What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ,orange,"They wear orange clothing (e.g., orange T-shirts, caps, scarves) during Oranjegekte and Koningsdag. The color orange is the traditional color associated with the Dutch royal family. 
+
+Source: wiki_35982d93f7.txt",True,False,wiki_35982d93f7.txt,3.08,
+153,multi_hop,2014 S/S is the debut album of a South Korean boy group that was formed by who?,YG Entertainment,"YG Entertainment. 
+
+Source: wiki_876985cb73.txt",True,False,wiki_876985cb73.txt,2.71,
+154,multi_hop,"During Siege of Bharatpur, which Commander-in-Chief of Ireland and Commander-in-Chief of India contributed to the storming of the castle?",Lord Combermere,"Stapleton Cotton, 1st Viscount Combermere (Commander-in-Chief, Ireland, and later Commander-in-Chief, India). He stormed Bharatpur’s fortress. 
+
+Sources: wiki_1abb4bd4a5.txt, wiki_4e88d3f075.txt",False,False,wiki_4e88d3f075.txt | wiki_1abb4bd4a5.txt,6.32,
+155,multi_hop,Andrew Jaspan was the co-founder of what not-for-profit media outlet?,The Conversation,"The Conversation. 
+
+Source: wiki_451d7816a9.txt",True,False,wiki_451d7816a9.txt,2.68,
+156,multi_hop,Where is the company that Sachin Warrier worked for as a software engineer headquartered? ,Mumbai,"Mumbai, Maharashtra, India.
+
+Sources: wiki_0dc26d0383.txt, wiki_319f2de047.txt",True,False,wiki_0dc26d0383.txt | wiki_319f2de047.txt,3.75,
+157,multi_hop,Joe Walker played for which team that ends their regular season with the Civil War rivalry game?,Oregon Ducks football,"He played for the Oregon Ducks. 
+Source: wiki_83c9a4a42d.txt, wiki_becad042e9.txt",False,False,wiki_83c9a4a42d.txt | wiki_becad042e9.txt,2.76,
+158,multi_hop,"Marcus Wayne Garland spent nine seasons with an American professional baseball team that is based in Baltimore, Maryland, and was one of the AMerican League's original eight charter franchises when the league was established in what year?",1901,"1901. 
+
+Sources: wiki_ecbe4f9d87.txt, wiki_cf972443a1.txt",True,False,wiki_cf972443a1.txt | wiki_ecbe4f9d87.txt,3.75,
+159,multi_hop,"Which band, Letters to Cleo or Screaming Trees, had more members?",Letters to Cleo,"Letters to Cleo had more members.
+
+- Letters to Cleo: Kay Hanley, Greg McKenna, Michael Eisenstein, Stacy Jones, Scott Riebling, and Tom Polce (6 members). Source: wiki_7b08276be0.txt
+- Screaming Trees: Mark Lanegan, Gary Lee Conner, Van Conner, Mark Pickerel (4 members; later Barrett Martin joined, but the core lineup remained 4 during its notable periods). Source: wiki_d0ddff8229.txt",True,False,wiki_7b08276be0.txt | wiki_d0ddff8229.txt,3.77,
+160,multi_hop,Tefik Selim Mborja was a part of a party that held power in Albania until what year? ,1943,The Albanian Fascist Party held nominal power until 1943. Source: wiki_61625b60da.txt,True,False,wiki_61625b60da.txt,3.94,
+161,multi_hop,"Which travel parody series featured American actor, comedian, and radio host best known as the host of ""The Joe Schmo Show""?",Hidden America with Jonah Ray,"Hidden America with Jonah Ray. 
+
+Source: wiki_778f6f62c2.txt",True,False,wiki_778f6f62c2.txt,5.84,
+162,multi_hop,What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?,World's Best Goalkeeper,"Kasper Schmeichel’s father, Peter Schmeichel, was voted the IFFHS World's Best Goalkeeper in 1992. 
+
+Source: wiki_1c637d2af2.txt",True,False,wiki_1c637d2af2.txt,2.74,
+163,multi_hop,"What was the name of a woman from the book titled ""Their Lives: The Women Targeted by the Clinton Machine "" and was also a former white house intern?",Monica Lewinsky,"Monica Lewinsky.
+
+Source: wiki_12072b5fe0.txt; wiki_5955f5f99e.txt",True,False,wiki_12072b5fe0.txt | wiki_5955f5f99e.txt,4.66,
+164,multi_hop,In which city are the headquarters of the American research and scientific development company where Ravi Sethi worked as computer scientist located?,Murray Hill,"Murray Hill, New Jersey. Source: wiki_5a48f51615.txt",True,False,wiki_5a48f51615.txt,3.00,
+165,multi_hop,"Which professional ice hockey position does the Captain of the National Hockey League All-Star Game ""Away Team"" play?",Canadian professional ice hockey centre,"Centre. 
+
+Source: wiki_939be306bb.txt",False,False,wiki_939be306bb.txt,3.31,
+166,multi_hop,Who did the Star and Dagger bass player marry?,Sean Yseult.,"From the retrieved content, the knowledge base notes that Sean Yseult is the Star & Dagger bass player, but it does not mention whom she married. If you’d like, I can search again for details about her personal life. Source: wiki_e4ecc2f602.txt",False,True,wiki_e4ecc2f602.txt,6.94,
+167,multi_hop,Which  French ace pilot and adventurer fly L'Oiseau Blanc,Charles Eugène,"Charles Nungesser — the French ace pilot and adventurer who, along with François Coli, flew the L’Oiseau Blanc. (The aircraft was flown by Nungesser and Coli on its ill-fated attempt.) 
+
+Sources: wiki_76ade7ae59.txt, wiki_98dcba50cf.txt, wiki_3ea39eba14.txt",False,False,wiki_3ea39eba14.txt | wiki_76ade7ae59.txt | wiki_98dcba50cf.txt,6.99,
+168,multi_hop,"Which American audio engineer and clandestine chemist, who was a key figure in the San Francisco Bay Area hippie movement during the 1960s recorded the album ""Old and in the Way?""",Owsley Stanley,"Owsley Stanley (also known as Bear).
+
+Cited sources: wiki_e6b66a7fb1.txt (biography) and wiki_19d9ceeb86.txt (Old and in the Way album details).",True,False,wiki_19d9ceeb86.txt | wiki_e6b66a7fb1.txt,4.53,
+169,multi_hop,Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?,Scotch Collie,Scotch Collie. Source: wiki_bca88b572d.txt,True,False,wiki_bca88b572d.txt,3.58,
+170,multi_hop,What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?,Ann,"Not available in the retrieved content. The sources identify the actress as Sela Ward, but do not provide a middle name. Source: wiki_8d1a953267.txt, wiki_b1011a8a82.txt.",False,True,wiki_8d1a953267.txt | wiki_b1011a8a82.txt,3.19,
+171,multi_hop,What major city is the Faith Lutheran Middle School and High School located by?,Las Vegas,"Las Vegas.
+
+Source: wiki_58f5bdb399.txt",True,False,wiki_58f5bdb399.txt,2.63,
+172,multi_hop,What football club plays in the area between the old tool gates: Brook Bar and Trafford bar?,Manchester United,"Manchester United F.C.
+
+Source: wiki_56c0bb5b2a.txt, wiki_2d2bb0cd61.txt",True,False,wiki_2d2bb0cd61.txt | wiki_56c0bb5b2a.txt,4.64,
+173,multi_hop,"Since 2 June 2017, The Leader of Fine Gael had been held by which Irish Fine Gael politician who has served as Taoiseach and Minister for Defence?",Leo Varadkar,"Leo Varadkar.
+
+Source: wiki_093de636b1.txt, wiki_438b10511d.txt",True,False,wiki_093de636b1.txt | wiki_438b10511d.txt,3.09,
+174,multi_hop,"Which came out first, Dinosaur or McFarland, USA",Dinosaur,"Dinosaur came out first. Dinosaur (2000) precedes McFarland, USA (2015).
+
+Sources: wiki_070b6886f0.txt, wiki_607988301a.txt",True,False,wiki_070b6886f0.txt | wiki_607988301a.txt,3.53,
+175,multi_hop,"When did the English local newspaper, featuring the sculpture and war memorial in the Forbury gardens, change names?",2009,"It changed in 2009, from the Reading Evening Post to the Reading Post. Source: wiki_8c42ece4bc.txt",True,False,wiki_8c42ece4bc.txt,3.36,
+176,multi_hop,"Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",Badly Drawn Boy,"I can’t determine the instrument-to-person ratio from the available knowledge base. The Badly Drawn Boy entry (wiki_cda5703050.txt) notes that Damon Gough played several instruments on the album, but it doesn’t provide a numerically explicit ratio, and there is no information about Wolf Alice in the sources you provided.
+
+Source: wiki_cda5703050.txt",False,True,wiki_cda5703050.txt,7.33,
+177,multi_hop,"What screenwriter with credits for ""Evolution"" co-wrote a film starring Nicolas Cage and Téa Leoni?",David Weissman,"David Weissman.
+
+Sources:
+- wiki_70cbcf7da9.txt (David Weissman credits, including Evolution)
+- wiki_14ff8d4f03.txt (The Family Man, written by David Diamond and David Weissman, starring Nicolas Cage and Téa Leoni)",True,False,wiki_14ff8d4f03.txt | wiki_70cbcf7da9.txt,3.38,
+178,multi_hop,"Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?","Fujioka, Gunma","Buck-Tick is a Japanese rock band formed in Fujioka, Gunma (Japan) in 1983. Source: wiki_a2f3b37ea9.txt",True,False,wiki_a2f3b37ea9.txt,4.43,
+179,multi_hop,Both Truth in Science and Discovery embrace what campaign?,"""Teach the Controversy"" campaign","They both embrace the ""Teach the Controversy"" campaign. 
+
+Source: wiki_b65ec49646.txt, wiki_578b804c8c.txt",True,False,wiki_578b804c8c.txt | wiki_b65ec49646.txt,2.63,
+180,multi_hop,"What season was the character introduced that becomes the main antagonist in the  following season, from the animated television series created by Bryan Konietzko and Michael Dante DiMartino as a sequel to """", which aired from 2005 to 2008? ",third,"Season 2 (Book Two: Earth). Azula, who becomes the main antagonist in the following season (Season 3), is introduced in Season 2. 
+
+Sources: wiki_f31b4cd8c5.txt, wiki_7b8e135d6f.txt",False,False,wiki_7b8e135d6f.txt | wiki_f31b4cd8c5.txt,11.99,
+181,multi_hop,"A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",1962,"Masakazu Katsura was born in 1962. 
+Sources: wiki_3ed4ae6926.txt, wiki_a68af23f0e.txt",True,False,wiki_a68af23f0e.txt | wiki_3ed4ae6926.txt,5.71,
+182,multi_hop,"The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",World War II,"World War II. 
+
+Source: wiki_2dd37bcaa7.txt",True,False,wiki_2dd37bcaa7.txt,2.84,
+183,multi_hop,What is the inhabitant of the city where  122nd SS-Standarte was formed in2014,"276,170 inhabitants","Strasbourg had 276,170 inhabitants in 2014.
+
+Source: wiki_a7b90170b4.txt",True,False,wiki_a7b90170b4.txt,3.41,
+184,multi_hop,Where was the world cup hosted that Algeria qualified for the first time into the round of 16?,Brazil,"Brazil. (Algeria reached the round of 16 at the 2014 FIFA World Cup hosted by Brazil.)
+Source: wiki_6ae65cf160.txt",True,False,wiki_6ae65cf160.txt,2.99,
+185,multi_hop,"According to the 2001 census, what was the population of the city in which Kirton End is located?","35,124","35,124. Source: wiki_acdfec2a96.txt",True,False,wiki_acdfec2a96.txt,2.91,
+186,multi_hop,"The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?",Texas Tech University,"Texas Tech University.
+
+Sources: wiki_a3c83d18b3.txt, wiki_5b8d354465.txt",True,False,wiki_5b8d354465.txt | wiki_a3c83d18b3.txt,3.14,
+187,multi_hop,This Celtic ruler who was born in AD 43 ruled southeastern Britain prior to conquest by which empire?,Roman,"The Roman Empire. 
+- Togodumnus (d. AD 43) was a king of the British Catuvellauni in southeastern Britain at the time of the Roman conquest. Source: wiki_899bb52bfe.txt",True,False,wiki_899bb52bfe.txt,6.15,
+188,multi_hop,D1NZ is a series based on what oversteering technique?,Drifting,"D1NZ is a production car drifting series (drifting is the oversteering technique used). 
+
+Source: wiki_74ed5f06f5.txt, wiki_7da9783b2f.txt",True,False,wiki_74ed5f06f5.txt | wiki_7da9783b2f.txt,3.30,
+189,multi_hop,"What is the county seat of the county where East Lempster, New Hampshire is located?",Newport,Newport. Source: wiki_20b22daeff.txt,True,False,wiki_20b22daeff.txt,8.61,
+190,multi_hop,Where is the stadium at which 1964 Georgia Tech Yellow Jackets football team played their home game located? ,North Avenue at Techwood Drive,"Grant Field on the Georgia Tech campus in Atlanta, Georgia (located at the corner of North Avenue and Techwood Drive). 
+
+Source: wiki_a89cebc632.txt, wiki_75f33ca9c4.txt",False,False,wiki_75f33ca9c4.txt | wiki_a89cebc632.txt,4.10,
+191,multi_hop,Georges-Henri Bousquet translated the work of a historian who is of what heritage?,North African Arab,"Tunisian heritage. (He translated works of the Tunisian historian Ibn Khaldun.)
+Source: wiki_db930c66d3.txt",False,False,wiki_db930c66d3.txt,2.85,
+192,multi_hop,"Where is the Bubblegum Alley, that is similar to Gum Wall, located in California?","San Luis Obispo, California","Bubblegum Alley is in downtown San Luis Obispo, California. It runs along the 700 block of Higuera Street, about 15 ft high and 70 ft long. Source: wiki_35e8c63db8.txt",True,False,wiki_35e8c63db8.txt,2.66,
+193,multi_hop,"What retailer in ABQ Uptown is headquarted in Poole, Dorset, United Kingdom?",Lush Ltd.,"Lush (Lush Ltd.), the cosmetics retailer headquartered in Poole, Dorset, United Kingdom. 
+
+Source: wiki_86fa09e03e.txt; wiki_f27d871d6f.txt",True,False,wiki_86fa09e03e.txt | wiki_f27d871d6f.txt,4.19,
+194,multi_hop,"Over how many centuries were the ""dwelling place of the dead"" built?",three centuries,"Not specified in the retrieved content. The sources discuss the Tabernacle as a dwelling place and note later Solomon's Temple, but do not state over how many centuries it was built. Source: wiki_dbcd3edac4.txt.",False,True,wiki_dbcd3edac4.txt,3.40,
+195,multi_hop,"In what year was the novel that Lourenço Mutarelli based ""Nina"" on based first published?",1866,"1866.
+
+Source: wiki_e5e3b6fa38.txt, wiki_9eeb671465.txt",True,False,wiki_e5e3b6fa38.txt | wiki_9eeb671465.txt,7.89,
+196,multi_hop,Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?,Eenasul Fateh,Eenasul Fateh. Source: wiki_a4c844b08d.txt,True,False,wiki_a4c844b08d.txt,2.49,
+197,multi_hop,The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?,Carabao Cup,"Carabao Cup.
+
+Source: wiki_0062a8b7e2.txt",True,False,wiki_0062a8b7e2.txt,2.56,
+198,multi_hop,"Which board game was published most recently, Pirate's Cove or Catan?",Pirate's Cove,"Pirate's Cove was published most recently (originally 2002, republished in 2003 by Days of Wonder), compared to Catan which was first published in 1995.
+
+Sources:
+- Pirate's Cove: wiki_cc32104189.txt
+- Catan: wiki_fa1c15f047.txt",True,False,wiki_cc32104189.txt | wiki_fa1c15f047.txt,6.83,
+199,multi_hop,"Which airplane was this Major test-flying after whom the base, that 514th Flight Test Squadron is stated at, is named?",B-17 Flying Fortress bomber,"He was test-flying a prototype of the Boeing B-17 Flying Fortress bomber. 
+
+Source: wiki_2eea11f4aa.txt",True,False,wiki_2eea11f4aa.txt,3.13,
+200,table,"In the warehouse inventory table, what is the units in stock for Fernley?",163,"Fernley has 163 units in stock.
+
+Source: warehouse_inventory.pdf",True,False,warehouse_inventory.pdf,2.36,
+201,table,"In the warehouse inventory table, what is the monthly shipments for Birchwood?",831,"The monthly shipments for Birchwood are 831. 
+Source: warehouse_inventory.pdf",True,False,warehouse_inventory.pdf,3.36,
+202,table,"In the warehouse inventory table, what is the units in stock for Juniper?",957,"957
+
+Source: warehouse_inventory.pdf",True,False,warehouse_inventory.pdf,2.66,
+203,table,"In the warehouse inventory table, what is the monthly shipments for Aldgate?",451,"The monthly shipments for Aldgate are 451. 
+
+Source: warehouse_inventory.pdf",True,False,warehouse_inventory.pdf,2.47,
+204,table,"In the warehouse inventory table, who is the manager of Elmfield?",Sara,"Sara. 
+
+Source: warehouse_inventory.pdf",True,False,warehouse_inventory.pdf,2.46,
+205,table,"In the warehouse inventory table, who is the manager of Dunmere?",Zoya,"Zoya. 
+
+Source: warehouse_inventory.pdf",True,False,warehouse_inventory.pdf,2.93,
+206,table,"In the warehouse inventory table, which warehouse has the highest units in stock?",Juniper,Juniper — 957 units in stock. Source: warehouse_inventory.pdf,True,False,warehouse_inventory.pdf,2.77,
+207,table,"In the warehouse inventory table, which warehouse has the lowest units in stock?",Fernley,"Fernley has the lowest units in stock: 163 units. 
+Source: warehouse_inventory.pdf",True,False,warehouse_inventory.pdf,2.65,
+208,table,"In the warehouse inventory table, which warehouse has the highest monthly shipments?",Birchwood,"Birchwood has the highest monthly shipments (831 units). 
+
+Source: warehouse_inventory.pdf",True,False,warehouse_inventory.pdf,3.91,
+209,table,"In the warehouse inventory table, what is the difference between units in stock and monthly shipments for Fernley? Give the absolute value.",113,"The absolute difference is 113 (|163 - 276| = 113).
+
+Source: warehouse_inventory.pdf",True,False,warehouse_inventory.pdf,3.32,
+210,table,"In the regional sales table, what is the Q1 sales for Stonebrook?",441,"Stonebrook Q1 sales: 441
+
+Source: regional_sales.pdf",True,False,regional_sales.pdf,2.20,
+211,table,"In the regional sales table, what is the Q2 sales for Pinecrest?",771,"The Q2 sales for Pinecrest is 771.
+
+Source: regional_sales.pdf",True,False,regional_sales.pdf,2.47,
+212,table,"In the regional sales table, what is the Q1 sales for Kestrel?",390,"The Q1 sales for Kestrel is 390.
+
+Source: regional_sales.pdf",True,False,regional_sales.pdf,2.81,
+213,table,"In the regional sales table, what is the Q2 sales for Meridian?",244,"Meridian Q2 sales: 244
+
+Source: regional_sales.pdf",True,False,regional_sales.pdf,2.53,
+214,table,"In the regional sales table, who is the manager of Quarry?",Vikram,"Vikram
+
+Source: regional_sales.pdf",True,False,regional_sales.pdf,2.70,
+215,table,"In the regional sales table, who is the manager of Larkspur?",Arjun,"Arjun. 
+
+Source: regional_sales.pdf",True,False,regional_sales.pdf,2.48,
+216,table,"In the regional sales table, which territory has the highest Q1 sales?",Quarry,"Quarry. Q1 sales: 994 (highest in the table).
+
+Source: regional_sales.pdf",True,False,regional_sales.pdf,3.64,
+217,table,"In the regional sales table, which territory has the lowest Q1 sales?",Tamarack,Tamarack. Source: regional_sales.pdf,True,False,regional_sales.pdf,2.58,
+218,table,"In the regional sales table, which territory has the highest Q2 sales?",Quarry,Quarry has the highest Q2 sales (815). Source: regional_sales.pdf.,True,False,regional_sales.pdf,3.45,
+219,table,"In the regional sales table, what is the difference between Q1 sales and Q2 sales for Stonebrook? Give the absolute value.",60,"The absolute difference is 60 (Q2 501 - Q1 441).
+
+Source: regional_sales.pdf",True,False,regional_sales.pdf,3.42,
+220,table,"In the employee headcount table, what is the full-time staff for Graphics?",240,"The full-time staff for Graphics is 240.
+
+Source: employee_headcount.pdf",True,False,employee_headcount.pdf,2.87,
+221,table,"In the employee headcount table, what is the contractors for Facilities?",652,652,True,False,employee_headcount.pdf | squad_0073.txt | vendor_contracts.pdf | warehouse_inventory.pdf | wiki_8bb32252e7.txt,2.56,
+222,table,"In the employee headcount table, what is the full-time staff for Dispatch?",597,"Dispatch full-time staff: 597
+
+Source: employee_headcount.pdf",True,False,employee_headcount.pdf,2.56,
+223,table,"In the employee headcount table, what is the contractors for Helpdesk?",856,"856 contractors. 
+
+Source: employee_headcount.pdf",True,False,employee_headcount.pdf,2.39,
+224,table,"In the employee headcount table, who is the manager of Engineering?",Tara,"Tara.
+
+Source: employee_headcount.pdf",True,False,employee_headcount.pdf,3.68,
+225,table,"In the employee headcount table, who is the manager of Compliance?",Sara,"Sara. 
+
+Source: employee_headcount.pdf",True,False,employee_headcount.pdf,4.42,
+226,table,"In the employee headcount table, which department has the highest full-time staff?",Compliance,"The Compliance department has the highest full-time staff (884). 
+Source: employee_headcount.pdf",True,False,employee_headcount.pdf,2.97,
+227,table,"In the employee headcount table, which department has the lowest full-time staff?",Inspection,"Inspection has the lowest full-time staff (179). 
+
+Source: employee_headcount.pdf",True,False,employee_headcount.pdf,2.84,
+228,table,"In the employee headcount table, which department has the highest contractors?",Actuarial,"Actuarial department, with 964 contractors. Source: employee_headcount.pdf.",True,False,employee_headcount.pdf,3.65,
+229,table,"In the employee headcount table, what is the difference between full-time staff and contractors for Graphics? Give the absolute value.",715,"The absolute difference is 715 (Graphics: 240 full-time staff vs 955 contractors).
+
+Source: employee_headcount.pdf",True,False,employee_headcount.pdf,4.95,
+230,table,"In the vendor contracts table, what is the contract value for Falcon Tech?",646,"The contract value for Falcon Tech is 646.
+
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,3.32,
+231,table,"In the vendor contracts table, what is the contract months for Indigo Inc?",887,"Indigo Inc has contract months: 887.
+
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,3.05,
+232,table,"In the vendor contracts table, what is the contract value for Beacon Co?",866,"Beacon Co has a contract value of 866. 
+
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,2.46,
+233,table,"In the vendor contracts table, what is the contract months for Jasper Group?",388,"Jasper Group contract months: 388
+
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,2.25,
+234,table,"In the vendor contracts table, who is the manager of Ember Group?",Tara,"Tara. 
+
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,3.59,
+235,table,"In the vendor contracts table, who is the manager of Acorn Ltd?",Sara,"Sara. 
+
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,2.89,
+236,table,"In the vendor contracts table, which vendor has the highest contract value?",Indigo Inc,"Indigo Inc has the highest contract value (928). 
+
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,3.02,
+237,table,"In the vendor contracts table, which vendor has the lowest contract value?",Ember Group,"Ember Group has the lowest contract value (339). 
+
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,2.76,
+238,table,"In the vendor contracts table, which vendor has the highest contract months?",Beacon Co,"Beacon Co has the highest contract months (955 months). 
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,2.52,
+239,table,"In the vendor contracts table, what is the difference between contract value and contract months for Falcon Tech? Give the absolute value.",38,"The absolute difference is 38.
+
+Source: vendor_contracts.pdf",True,False,vendor_contracts.pdf,2.81,
+240,table,"In the project budgets table, what is the approved budget for Cascade?",881,"The approved budget for Cascade is 881.
+
+Source: project_budgets.pdf",True,False,project_budgets.pdf,2.99,
+241,table,"In the project budgets table, what is the actual spend for Jupiter?",614,"614
+
+Source: project_budgets.pdf",True,False,project_budgets.pdf,2.67,
+242,table,"In the project budgets table, what is the approved budget for Atlas?",391,"391
+
+Source: project_budgets.pdf",True,False,project_budgets.pdf,2.44,
+243,table,"In the project budgets table, what is the actual spend for Ion?",505,"The actual spend for Ion is 505.
+
+Source: project_budgets.pdf",True,False,project_budgets.pdf,2.80,
+244,table,"In the project budgets table, who is the manager of Dynamo?",Priya,"Priya.
+
+Source: project_budgets.pdf",True,False,project_budgets.pdf,2.43,
+245,table,"In the project budgets table, who is the manager of Borealis?",Kabir,"Kabir. 
+
+Source: project_budgets.pdf",True,False,project_budgets.pdf,2.53,
+246,table,"In the project budgets table, which project has the highest approved budget?",Ion,"Ion has the highest approved budget (950). 
+
+Source: project_budgets.pdf",True,False,project_budgets.pdf,2.39,
+247,table,"In the project budgets table, which project has the lowest approved budget?",Borealis,Borealis. Source: project_budgets.pdf,True,False,project_budgets.pdf,2.82,
+248,table,"In the project budgets table, which project has the highest actual spend?",Cascade,"Cascade has the highest actual spend, at 936. Source: project_budgets.pdf",True,False,project_budgets.pdf,2.91,
+249,table,"In the project budgets table, what is the difference between approved budget and actual spend for Cascade? Give the absolute value.",55,"The absolute difference for Cascade is 55 (actual spend 936 vs approved budget 881).
+
+Source: project_budgets.pdf",True,False,project_budgets.pdf,3.25,
