@@ -70,3 +70,4 @@ docker-compose.override.yml
 frontend/dist/
 
 backend/eval/data/
+.coverage
